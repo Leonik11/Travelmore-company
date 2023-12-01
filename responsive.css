@@ -1,0 +1,483 @@
+
+@media screen and (max-width: 1372px) {
+    main .top aside .companytitle{
+    font-size: 30px !important;
+   }
+    .middletop h1{
+    font-size: 25px !important; 
+   }
+   .middletop span{
+    font-size: 14 !important;
+   }
+   .letterdiv h3{
+    font-size: 25px !important;
+   }
+}
+@media screen and (max-width: 1190px) {
+    main .top aside .companytitle{
+    font-size: 20px !important;
+    letter-spacing: 2cm;
+   }
+    .middletop h1{
+    font-size: 25px !important; 
+   }
+   .middletop span{
+    font-size: 14 !important;
+   }
+   .letterdiv h3{
+    font-size: 25px !important;
+   }
+}
+@media screen and (max-width: 1125px){
+    main .contact2 div{
+        width: 80%;
+        column-gap: 80px;
+    }
+}
+@media screen and (max-width: 1070px){
+    .signin1 .signsection{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+    }
+    .signleft{
+        border-bottom: 0.5px solid #395f7f;
+    }
+    .signin1 .signsection{
+        height: auto;
+        padding: 10px;
+    }
+    main .contact1 div{
+        height: 90%;
+        grid-template-columns: 1fr;
+        column-gap: 5px;
+        grid-template-rows: 2fr 1fr;
+    }
+    main .contact1 div .contactleft{
+        width: 100%;
+        height: 100%;
+    }
+    main .contact1 div .contactleft iframe{
+        width: 100%;
+        height: 100%;
+    }
+    main .contact1 div .contactright{
+        width: 100%;
+        height: 100%;
+    }
+    main .contact1 div .contactright form{
+        width: 100%;
+        height: 100%;
+    }
+    main .contact1 div .contactright form label{
+        font-size: 12px;
+    }
+    main .contact1 div .contactright form textarea{
+        height: 80px;
+    }
+}
+@media screen and (max-width: 1000px){
+        main .top aside .companytitle{
+        letter-spacing: 1.5cm !important;
+       }
+       main .middle{
+        grid-template-columns: 1fr;
+        gap: 30px;
+       }
+       .middletop{
+        width: 100% !important;
+       }
+       main .bottom{
+        grid-template-columns: 1fr;
+        gap: 50px;
+       }
+    
+} 
+@media screen and (max-width: 970px) {
+    main .rooms .roombottom{
+        grid-template-columns: 1fr;
+        gap: 30px !important;
+    }
+    .roombottominfoleft{
+        height: auto !important;
+        gap: 10px !important;
+    }
+    .roombottominfoleft h3{
+        font-size: 25px !important;
+    }
+    .roombottominfoleft p{
+        font-size: 12px !important;
+        padding: 0px;
+        margin: 0px;
+        height: auto !important;
+    }
+    .roombottominforight{
+        gap: 20px;
+        padding: 10px;
+    }
+    .roombottominforight,
+    .roombottominforight .roombottominforighttop,
+    .roombottominforight .roombottominforightbottom{
+        height: auto !important;
+    }
+}
+@media screen and (max-width:826px) {
+    main .mainsection aside h2{
+        font-size: 30px!important;
+    }
+    main .mainsection aside span{
+        font-size: 14px!important;
+    }
+    .mainsection2 aside .card .row,
+    .mainsection2 aside .card{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr 1fr !important;
+        height: auto !important;
+        text-align: center;
+        place-items: center; place-content: center;
+    }
+    .mainsection2 aside .card{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr  !important;
+        height: auto !important;
+        text-align: center;
+        place-items: center; place-content: center;
+    }
+    .mainsection2 aside .card .row div{
+        width: 100% !important;
+        height: auto !important;
+        text-align: center;
+        place-items: center; place-content: center;
+    }
+    .img-fluid{
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+@media screen and (max-width:800px) {
+    main .top aside .companytitle{
+        letter-spacing: 1rem !important;
+        font-size: 40px !important;
+       }
+    main .contact2 div{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 700px) {
+    main .rooms .roomimg{
+        width: 90%;
+    }
+    .roombottominforight .roombottominforighttop span{
+        font-size: 14px;
+    }
+    .roombottominforight .roombottominforightbottom p{
+        font-size: 15px !important;
+    }
+    .littlespan{
+        font-size: 12px !important;
+    }
+}
+@media screen and (max-width: 755px) {
+
+    .middle2aside h2{
+        font-size: 20px!important;
+        text-align: center !important;
+    }
+    main .contact aside{
+        width: 80%;
+    }
+    main .contact aside h2{
+        font-size: 25px;
+    }
+    main .contact1 div{
+        width: 90%;
+        row-gap: 5px;
+    }
+    main .contact2 div{
+        width: 100%;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    main .contact2 div .contact22{
+        row-gap: 5px;
+    }
+    header nav{
+        width: 100%;
+    }
+    header nav div .navbar-brand{
+        display: flex;
+        justify-content: flex-start;
+    }
+    header nav div .navbar-brand p,
+    header nav div .navbar-brand span,
+    header nav div .navbar-brand i{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 676px){
+    .signleft div h3{
+        font-size: 20px !important;
+    }
+    .signleft div span{
+        font-size: 12px !important;
+    }
+    .signleft div a{
+        font-size: 10px !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .registeraside1 h3{
+        font-size: 30px!important;
+    }
+    .col-12 button{
+        font-size: 10px!important;
+        width: 100px !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    main .top aside .companytitle{
+        letter-spacing: 0.5rem !important;
+        font-size: 30px !important;
+       }
+       .middle2aside{
+        height: auto;
+       }
+}
+@media screen and (max-width: 560px) {
+   .hotelinftitle{
+    font-size: 30px !important;
+    }
+    .bottomdiv .letterdiv h3{
+        font-size: 20px !important;
+    }
+    .bottomdiv .letterdiv span{
+        font-size: 12px !important;
+    }
+    .bottomdiv .letterdiv button a{
+        font-size: 10px !important;
+    }
+    main .mainsection aside h2{
+        font-size: 25px!important;
+    }
+}
+@media screen and (max-width: 488px) {
+    header nav div .navbar-brand p{
+        font-size: 16px;
+    }
+    header nav div .navbar-brand span{
+        font-size: 10px;
+    }
+    header nav div .navbar-brand i{
+        font-size: 30px;
+    }
+    main .contact aside span{
+        font-size: 12px;
+    }
+    main .contact2 div .contact22 i{
+        font-size: 30px;
+    }
+    main .contact2 div .contact22 span p,
+    main .contact2 div .contact22 a{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:450px){
+    .mainsection2 aside .card .row div h5{
+        font-size: 25px !important;
+    }
+    .mainsection2 aside .card .row div p{
+        font-size: 12px !important;
+    }
+    .mainsection2 aside .card .row div button,
+    .mainsection2 aside .card .row div button a {
+        font-size: 10px !important;
+    }
+    main .mainsection aside h2{
+        font-size: 20px!important;
+    }
+    main .mainsection aside span{
+        font-size: 12px!important;
+    }
+    .hotelinftitle{
+        font-size: 25px !important;
+        }
+    .admininfo form{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .registeraside1 h3{
+        font-size: 25px !important;
+    }
+    .middletop h1{
+        font-size: 20px !important;
+    }
+    .middletop span,
+    .middle2aside span,
+    .letterdiv span{
+        font-size: 12px !important;
+    }
+    .middletop a,
+    .letterdiv a{
+        font-size: 10px !important;
+    }
+    .middle2aside h2{
+        font-size: 15px!important;
+    }
+    .letterdiv h3{
+        font-size: 16px!important;
+    }
+    .bottomdiv{
+        display: grid !important;
+        grid-template-rows: 1fr 1fr !important;
+    }
+    .bottomdiv .imgdiv1{
+        width: 100% !important;
+        height: 100%  !important;
+    }
+    .imgdiv1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .letterdiv{
+        width: 100% !important;
+        height: 100%  !important;
+        text-align: center;
+        align-content: center;
+        gap: 30px;
+    }
+    .carousel{
+        height: 90% !important;
+    }
+
+}
+@media screen and (max-width: 460px) {
+    main .rooms{
+        grid-template-rows: 1fr 3fr;
+    }
+    main .rooms .roomimg{
+        width: 90%;
+        height: 300px !important;
+    }
+    .roomsection1 aside h2{
+        font-size: 25px!important;
+    }
+    main .rooms .roombottom{
+       gap: 60px !important;
+    }
+    .roombottominforight .roombottominforighttop span{
+        font-size: 12px;
+        width: 100% !important;
+    }
+    .roombottominforight .roombottominforightbottom p{
+        font-size: 12px !important;
+        text-align: left !important;
+        justify-content:flex-start !important;
+        align-items:flex-start !important;
+    }
+    .littlespan{
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .registeraside1 h3{
+        font-size: 20px!important;
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .registeraside1 span{
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+    } 
+    .col-12 button{
+        font-size: 10px!important;
+        width: 100px !important;
+    }
+}
+@media screen and (max-width:350px) {
+    .hotelinftitle{
+        font-size: 20px !important;
+        }
+}
+
+@media screen and (max-width:320px) {
+    main .top aside .companytitle{
+        letter-spacing: 0.1em !important;
+        font-size: 30px !important;
+       }
+    main .contact aside h2{
+        font-size: 20px;
+    }
+    header nav .navbar-brand{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    header nav div .navbar-brand p,
+    header nav div .navbar-brand span,
+    header nav div .navbar-brand i{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    main .contact aside h2{
+        font-size: 20px;
+    }
+    .signleft div h3{
+        font-size: 15px !important;
+    }
+    .signleft div{
+        gap: 5px !important;
+    }
+}
+@media screen and (max-width:404px){
+    header nav .navbar-brand{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    header nav div .navbar-brand p,
+    header nav div .navbar-brand span,
+    header nav div .navbar-brand i{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    header nav div button{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width:1900px) {
+    
+    main .contact1 div .contactright form input,
+    main .contact1 div .contactright form textarea{
+        border: 1px solid black;
+    }
+    main .contact1 div .contactright form input:hover,
+    main .contact1 div .contactright form textarea:hover{
+    border: 3px solid black;
+    }
+    header nav div div ul li{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:991px) {
+    header nav .container-fluid{
+        align-items: center;
+        width: 100%;
+        align-items: center !important;
+    }
+
+    
+}
